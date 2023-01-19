@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/izquierda"
+        android:title="izquierda"
+        android:icon="@drawable/flecha_izquierda"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/derecha"
+        android:title="derecha"
+        android:icon="@drawable/flecha_derecha"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item android:id="@+id/buscar"
+        android:title="buscar"
+        android:icon="@drawable/lupa"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item android:id="@+id/perfil"
+        android:icon="@drawable/perfil"
+        android:title="perfil"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>
